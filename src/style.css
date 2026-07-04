@@ -13,10 +13,68 @@ body {
   max-width: 600px;
 }
 
+header {
+  margin-bottom: 40px;
+}
+
 h1 {
+  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 800;
   font-size: 40px;
   line-height: 1.5;
   color: fuchsia;
+}
+
+form {
+  background-color: pink;
+  padding: 30px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 20px rgba(61, 220, 65, 0.2);
+  line-height: 1.6;
+  display: flex;
+}
+
+.affirmation-prompt {
+  padding: 16px;
+  border: purple 1px solid;
+  box-shadow: 10px 10px 20px rgba(61, 220, 65, 0.2);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 40px;
+  line-height: 20px;
+}
+.affirmation-submit {
+  padding: 14px 24px;
+  background-color: purple;
+  box-shadow: 10px 10px 20px rgba(61, 220, 65, 0.2);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.affirmation-output {
+  margin-top: 20px;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  background-color: pink;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(61, 220, 65, 0.2);
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  color: #555;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
 }

@@ -7,7 +7,7 @@
     <title>AI generated Daily Affirmations</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
     <header>
       <h1>Welcome to Daily Affirmations</h1>
     </header>
@@ -20,11 +20,12 @@
           autofocus
           required
           autocomplete="off"
+          class="affirmation-prompt"
         />
-        <input type="submit" value="Submit" />
+        <input class="affirmation-submit" type="submit" value="Submit" />
       </form>
       <br />
-      <div>
+      <div class="affirmation-output">
         I can be soft in my heart and firm in my boundaries. <br />
         I release the fears that do not serve me.
       </div>
@@ -42,7 +43,10 @@
       <a href="https://debsdailyaffirmation.netlify.app/" target="_blank"
         >hosted on Netlify</a
       >.
-    </footer></body>div>
+    </footer>
+    </div>
+  </body>
+
     <script src="src/index.js"></script>
   </body>
 </html>
