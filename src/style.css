@@ -67,6 +67,12 @@ form {
   box-shadow: 10px 10px 20px rgba(61, 220, 65, 0.2);
 }
 
+.affirmation-output strong {
+  color: pink;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 footer {
   text-align: center;
   margin-top: 40px;
