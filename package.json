@@ -1,0 +1,13 @@
+{
+  "name": "daily-affirmations",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small client-side daily affirmations app.",
+  "scripts": {
+    "start": "live-server --open=./index.html --port=8080",
+    "build": "echo \"No build step configured.\""
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

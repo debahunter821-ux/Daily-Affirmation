@@ -2,8 +2,15 @@ function generateAffirmation(event) {
   event.preventDefault();
 
   let affirmationOutput = document.querySelector("#affirmation-output");
-  affirmationOutput.innerHTML =
-    "I can be soft in my heart and firm in my boundaries.";
+
+  new Typewriter("#affirmation-output", {
+    strings: "I can be soft in my heart and firm in my boundaries.",
+    autoStart: true,
+    cursor: null,
+    delay: 25,
+  });
+
+  
 }
 
 let affirmationFormElement = document.querySelector("#affirmation-form");
