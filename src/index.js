@@ -7,10 +7,8 @@ function generateAffirmation(event) {
     strings: "I can be soft in my heart and firm in my boundaries.",
     autoStart: true,
     cursor: null,
-    delay: 25,
+    delay: 1,
   });
-
-  
 }
 
 let affirmationFormElement = document.querySelector("#affirmation-form");
