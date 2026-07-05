@@ -63,9 +63,11 @@ form {
   line-height: 30px;
   font-size: 18px;
   background-color: pink;
-  border-radius: 10px;
+  border-radius: 40px;
   box-shadow: 10px 10px 20px rgba(61, 220, 65, 0.2);
 }
+
+.hidden { display: none; }
 
 .affirmation-output strong {
   color: fuchsia;
@@ -83,4 +85,28 @@ footer {
 a {
   color: purple;
   text-decoration: none;
+}
+small {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+  background-color: pink;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(61, 220, 65, 0.2);
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

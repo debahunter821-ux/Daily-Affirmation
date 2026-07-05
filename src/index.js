@@ -26,7 +26,9 @@ function generateAffirmation(event) {
 
   axios.get(apiUrl).then(displayAffirmation);
 
-  let affirmationOutput = document.querySelector("#affirmation-output");
+  let affirmationOutputElement = document.querySelector("#affirmation-output");
+  affirmationOutputElement.classList.remove("hidden");
+  affirmationOutputElement.innerHTML = `<div class="generating">⌛️ Generating your affirmation about ${affirmationInstructions.value}...</div>`;
 }
 
 let affirmationFormElement = document.querySelector("#affirmation-form");
